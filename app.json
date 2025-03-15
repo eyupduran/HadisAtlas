@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "HadisAtlas",
+    "slug": "HadisAtlas",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/hadisatlas.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/hadisatlas.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/hadisatlas.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.eyupduran.HadisAtlas"
+    },
+    "web": {
+      "favicon": "./assets/hadisatlas.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8b9520f8-2af6-42c3-8092-7adf540f4188"
+      }
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "enableProguardInReleaseBuilds": true,
+            "enableShrinkResourcesInReleaseBuilds": true,
+            "useLegacyPackaging": true
+          }
+        }
+      ]
+    ]
+  }
+}
